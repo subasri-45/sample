@@ -4,81 +4,256 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    </head>
 
-    <body class="p-5 md:p-10 text-gray-800">
-        <section class="bg-blue-100 rounded-2xl p-5">
-            <div class="container mx-auto">
-                <div class="flex">
-                    <a class="text-3x font-bold pr-5 border-r mr-5 border-black-300"href="index.html">Agency</a>
-                    <div class="my-auto"> 
-                        <button class="lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                              </svg>                              
-                        </button>
-                        <ul class="hidden lg:flex font-bold text-gray-600 ">
-                            <li class="pr-5"><a class="px-5 py-2 border border-purple-100 hover: border-blue-300 rounded" href="">Home</a>
-                            <li class="pr-5"><a class="px-5 py-2 border border-purple-100 hover: border-blue-300 rounded" href="">About</a>
-                            <li class="pr-5"><a class="px-5 py-2 border border-purple-100 hover: border-blue-300 rounded" href="">Service</a>
-                            <li class="pr-5"><a class="px-5 py-2 border border-purple-100 hover: border-blue-300 rounded" href="">Portfolio</a>
-                            <li class="pr-5"><a class="px-5 py-2 border border-purple-100 hover: border-blue-300 rounded" href="">Contact</a>
-                        </ul>
-                    </div>
-                  
-                    <a href=""class="flex ml-auto text-medium font-bold bg bg-red-500 text-white px-3 py-2 rounded">
-                        <span class="p-1 hidden lg:block">Get a quote</span>
-                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5" />
-                      </svg>
-                      </a>
-                </div>
-                <div class="hidden">
-                    <ul class="font-bold text-gray-600 ">
-                        <li class="mt-1"><a class="py-2" href="">Home</a>
-                        <li class="mt-1"><a class=" py-2" href="">About</a>
-                        <li class="mt-1"><a class=" py-2" href="">Service</a>
-                        <li class="mt-1"><a class=" py-2" href="">Portfolio</a>
-                        <li class="mt-1"><a class=" py-2" href="">Contact</a>
-                    </ul>
-                </div>
-                <div class="flex py-12 lg:py-36">
-                <div class="w-1/2">
-                    <h2 class="text-center lg:text-left text-3xl lg:text-7xl font-bold lg:font-semibold">
-                        World class design for your products.
-                    </h2>
-                    <p class="mt-4 lg:mt-8 text-2xl text-gray-600">
-                        lets bring life to your brand
-                    </p>
-                    <div class="flex mt-12 justify-center lg:justify-start">
-                        <a class="rounded mr-5 text-lg bg-red-500 text-white px-3 py-2" href="">Service</a>
-                        <a class="rounded mr-5 bg-pink-500 text-white px-3 py-2">contacts</a>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
 
-                    </div>
-
-                </div>
-                <div class="w-1/2 hidden lg:flex">
-                    <img src="./Assets/hero2.svg" alt=""
-                </div>
-                </div>
-                </div>
-                <div class="flex ">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                      </svg>  
-                      <span>
-                        Scroll down
-                      </span>                    
-                </div>
+<body class="p-5 md:p-10 text-gray-800 bg-blue-600">
+  <!-- Home -->
+  <section class="bg-blue-100 rounded-2xl p-5 mb-10">
+    <div class="container mx-auto">
+      <div class="flex">
+        <a class="text-3xl font-bold pr-5 border-r mr-5 border-blue-300" href="index.html">Agency</a>
+        <div class="my-auto">
+          <button class="lg:hidden" onclick="menuClick()">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </button>
+          <ul class="hidden lg:flex font-bold text-pink-600">
+            <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-blue-300 rounded"
+                href="">Home</a>
+            </li>
+            <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-blue-300 rounded"
+                href="">About</a>
+            </li>
+            <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-blue-300 rounded"
+                href="">Services</a>
+            </li>
+            <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-blue-300 rounded"
+                href="">Portfolio</a>
+            </li>
+            <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-blue-300 rounded"
+                href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <a href="" class="flex ml-auto text-medium font-bold bg-red-500 text-white px-3 py-2 rounded">
+          <span class="pr-1 hidden lg:block">
+            Get a Quote
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+          </svg></a>
+      </div>
+      <div class="hidden" id="mobileMenu">
+        <ul class="lg:hidden font-bold text-gray-600">
+          <li class="mt-1"><a class="py-2" href="">Home</a>
+          </li>
+          <li class="mt-1"><a class="py-2" href="">About</a>
+          </li>
+          <li class="mt-1"><a class="py-2" href="">Services</a>
+          </li>
+          <li class="mt-1"><a class="py-2" href="">Portfolio</a>
+          </li>
+          <li class="mt-1"><a class="py-2" href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex py-12 lg:py-36">
+        <div class="w-full lg:w-1/2">
+          <h2 class="text-center lg:text-left text-3xl lg:text-7xl font-bold lg:font-semibold">
+            World class design for your Products.
+          </h2>
+          <p class="text-center lg:text-left mt-4 lg:mt-8 text-2xl text-gray-600">
+            Lets bring life to your brand.
+          </p>
+          <div class="flex mt-12 justify-center lg:justify-start">
+            <a class="rounded mr-5 text-lg bg-pink-600 text-white px-3 py-2" href="">Services</a>
+            <a class="rounded mr-5 text-lg bg-blue-600 text-white px-3 py-2" href="">Contact Us</a>
+          </div>
+        </div>
+        <div class="w-1/2 hidden lg:flex">
+          <img src="./assets/hero2.svg" alt="">
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+        </svg>
+        <span class="ml-2">
+          Scroll Down
+        </span>
+      </div>
+    </div>
+  </section>
+  <section class="bg-blue-100 rounded-2xl p-5 mb-10">
+  <div class="container mx-auto">
+    <div class="py-16 lg:py-28">
+        <h2 class="text-center text-3xl lg:text-5xl font-bold">
+            Our Services
+        </h2>
+        <p class="lg:w-1/2 text-center mx-auto mt-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et veniam praesentium modi placeat dolor. Assumenda hic eligendi minus. Repellendus mollitia aspernatur culpa, illo at architecto corrupti modi qui nemo neque?
+        </p>
+    </div>
+    <div class="flex flex flex-wrap pb-28 justify-center">
+<div class="w-full lg:w-1/2 xl:w-1/3 lg:p-5">
+    <div class="bg-pink-100 p-10 rounded-2xl shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mb-16 text-red-700"fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+          </svg>          
+        <h3 class="text-2xl font-bold text-black-200">Service</h3>
+            <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus labore soluta sed ut dolorem ullam sequi assumenda, reprehenderit dolorum nam error aliquid molestias sunt, dicta laborum magnam ratione quaerat adipisci?
+            </p>
+    </div>
+</div>        
+<div class="w-full lg:w-1/2 xl:w-1/3 lg:p-5">
+    <div class="bg-pink-100 p-10 rounded-2xl shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mb-16 text-green-700" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
+          </svg>          
+        <h3 class="text-2xl font-bold text-black-200">Development</h3>
+            <p class="mt-3">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus labore soluta sed ut dolorem ullam sequi assumenda, reprehenderit dolorum nam error aliquid molestias sunt, dicta laborum magnam ratione quaerat adipisci?
+            </p class="mt-3">
+    </div>
+</div>        
+<div class="w-full lg:w-1/2 xl:w-1/3 lg:p-5">
+    <div class="bg-pink-100 p-10 rounded-2xl shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mb-16 text-blue-700"fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z" />
+          </svg>          
+        <h3 class="text-2xl font-bold text-black-200">Webdevelopment</h3>
+            <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus labore soluta sed ut dolorem ullam sequi assumenda, reprehenderit dolorum nam error aliquid molestias sunt, dicta laborum magnam ratione quaerat adipisci?
+            </p>
+    </div>
+</div>          
+    </div>
+  </section>
+  <section class="bg-blue-100 rounded-2xl p-5 mb-10">
+    <div class="container mx-auto">
+      <div class="py-16 lg:py-28">
+        <h2 class="text-center text-3xl lg:text-5xl font-bold">
+          Our Portfolio
+        </h2>
+        <p class="lg:w-1/2 text-center mx-auto mt-5">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, nobis deserunt dolor, corporis deleniti ab
+          necessitatibus repellendus tempora ad dolorem explicabo praesentium iste et assumenda eligendi ea pariatur,
+          reiciendis repellat!
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center mb-24">
+        <div class="w-full md:w-1/2 py-4 md:pt-24">
+          <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+            <div class="bg-white rounded-3xl shadow-lg">
+              <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+              <div class="p-5">
+                <p>
+                  <span class="px-2 bg-green-100 rounded-3xl border border-red-200 py-1">design</span>
+                  <span class="px-2 bg-blue-200 rounded-3xl border border-blue-200 py-1">branding</span>
+                </p>
+                <h3 class="mt-4 text-lg font-bold">Design Item 1</h3>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 py-4 md:py-12">
+          <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+            <div class="bg-white rounded-3xl shadow-lg">
+              <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+              <div class="p-5">
+                <p>
+                  <span class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1">design</span>
+                  <span class="px-2 bg-blue-100 rounded-3xl border bordeg-blue-200 py-1">branding</span>
+                </p>
+                <h3 class="mt-4 text-lg font-bold">Design Item 1</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 py-4 md:pt-24">
+          <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+            <div class="bg-white rounded-3xl shadow-lg">
+              <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+              <div class="p-5">
+                <p>
+                  <span class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1">design</span>
+                  <span class="px-2 bg-blue-100 rounded-3xl border bordeg-blue-200 py-1">branding</span>
+                </p>
+                <h3 class="mt-4 text-lg font-bold">Design Item 1</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 py-4 md:py-12">
+          <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+            <div class="bg-white rounded-3xl shadow-lg">
+              <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+              <div class="p-5">
+                <p>
+                  <span class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1">design</span>
+                  <span class="px-2 bg-blue-100 rounded-3xl border bordeg-blue-200 py-1">branding</span>
+                </p>
+                <h3 class="mt-4 text-lg font-bold">Design Item 1</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 py-4 md:pt-24">
+          <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+            <div class="bg-white rounded-3xl shadow-lg">
+              <img class="rounded-t-3xl" src="./assets/product.png" alt="">
+              <div class="p-5">
+                <p>
+                  <span class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1">design</span>
+                  <span class="px-2 bg-blue-100 rounded-3xl border bordeg-blue-200 py-1">branding</span>
+                </p>
+                <h3 class="mt-4 text-lg font-bold">Design Item 1</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex pb-24">
+        <a class="mx-auto bg-purple-600 text-white font-semibold text-lg px-5 py-2 rounded" href="">Explore</a>
+      </div>
+    </div>
+  </section>
+  <section class="rounded-2xl p-5 mb-10">
+    <div class="container mx-auto p-0 lg:px-28">
+       <div class="bg-green-500 rounded-2xl p-10">
+         <h2 class="font-bold text-3xl text-white text-center">
+            campanies who trust on us
+         </h2>
+      <div class="flex flex-wrap mt-8 justify-center">
+        <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 ">
+            <img src="./Assets/dummy_logo.png" alt=""class="mx-auto max-h-12">
+        </div>
+        <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 ">
+            <img src="./Assets/dummy_logo.png" alt=""class="mx-auto max-h-12">
+        </div>
+        <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 ">
+            <img src="./Assets/dummy_logo.png" alt=""class="mx-auto max-h-12">
+        </div>
+        <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 ">
+            <img src="./Assets/dummy_logo.png" alt=""class="mx-auto max-h-12">
+        </div>
+    </div>
+ </div>       
+    </div>
+  </section>
     </body>
 </html>
